@@ -1,0 +1,7 @@
+/* Generate column classes with varying widths based on divisions of 100% */
+
+@for $item from 1 through 4 {
+  .col-#{$item} {
+    width: 100% / $item;
+  }
+}

@@ -1,0 +1,5 @@
+/* Imports the '103-sort_list' for sorting, then displays the sorted $list_to_sort in debug */
+
+@import '103-sort_list';
+
+@debug $list_to_sort;

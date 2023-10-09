@@ -1,0 +1,7 @@
+/* Generates h1 to h5 tags with increasing font sizes */
+
+@for $index from 1 through 5 {
+  h#{$index} {
+    font-size: $index + px;
+  }
+}
